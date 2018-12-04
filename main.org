@@ -1,0 +1,13 @@
+#+BEGIN_SRC go
+package main
+import ("fmt")
+func main(){
+ var x, y int = 3, 2 
+c:= x+y
+   fmt.Println("add", c)
+}
+
+#+END_SRC
+
+#+RESULTS:
+: emacs run...
