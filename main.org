@@ -1,0 +1,15 @@
+#+BEGIN_SRC go
+package main
+import ("fmt")
+
+func main(){
+   medals := []string{"gold", "silver"}
+   for i := 0; i <len(medals); i++ {
+    fmt.Println("medals:", medals[i])
+   }
+}
+#+END_SRC
+
+#+RESULTS:
+: medals: gold
+: medals: silver
